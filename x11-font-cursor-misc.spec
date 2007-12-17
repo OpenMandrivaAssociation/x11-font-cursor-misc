@@ -6,7 +6,6 @@ Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-cursor-misc-%{version}.tar.bz2
 License: CHECK
-BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 BuildRequires: x11-font-util >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.1
