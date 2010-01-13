@@ -1,6 +1,6 @@
 Name: x11-font-cursor-misc
-Version: 1.0.0
-Release: %mkrel 7
+Version: 1.0.1
+Release: %mkrel 1
 Summary: Xorg X11 font cursor-misc
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,8 +23,8 @@ Xorg X11 font cursor-misc
 %setup -q -n font-cursor-misc-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/misc
+./configure --prefix=/usr --x-includes=%{_includedir}\
+	    --x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/misc
 
 %make
 
