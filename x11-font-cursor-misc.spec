@@ -24,6 +24,7 @@ Xorg X11 font cursor-misc
 %setup -q -n font-cursor-misc-%{version}
 
 %build
+%config_update
 ./configure --prefix=/usr --x-includes=%{_includedir}\
 	    --x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/misc
 
