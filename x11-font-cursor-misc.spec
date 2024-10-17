@@ -3,7 +3,7 @@ Version: 1.0.3
 Release: 18
 Summary: Xorg X11 font cursor-misc
 Group: Development/X11
-URL: http://xorg.freedesktop.org
+URL: https://xorg.freedesktop.org
 Source0: http://xorg.freedesktop.org/releases/individual/font/font-cursor-misc-%{version}.tar.bz2
 # See #38627 for licensing
 License: MIT
